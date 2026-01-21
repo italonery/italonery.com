@@ -20,13 +20,6 @@
 - ✅ Contact form with email notifications
 - ✅ SEO optimized
 
-## Getting Started
-
-### Prerequisites
-
-- Node.js 18+
-- Yarn
-
 ## Project Structure
 
 ```
@@ -89,15 +82,6 @@ Edit `lib/articles.ts`:
   tags: ['.NET', 'C#']
 }
 ```
-
-## Deploy
-
-### Vercel (Recommended)
-
-1. Push to GitHub
-2. Import project on [Vercel](https://vercel.com)
-3. Add environment variables in Settings
-4. Deploy!
 
 ## License
 
