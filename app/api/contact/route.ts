@@ -41,7 +41,7 @@ export async function POST(request: Request) {
         subject: `Portfolio Contact: ${name}`,
         body: htmlBody,
         is_html: true,
-        recipient_email: 'businessinery@gmail.com',
+        recipient_email: 'hi@italonery.com',
         sender_alias: 'Italo Nery Portfolio',
       }),
     });

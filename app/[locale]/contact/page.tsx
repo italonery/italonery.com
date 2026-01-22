@@ -40,8 +40,8 @@ export default function ContactPage() {
   const contactLinks = [
     {
       name: t.contact?.email ?? 'Email',
-      value: 'businessinery@gmail.com',
-      href: 'mailto:businessinery@gmail.com',
+      value: 'hi@italonery.com',
+      href: 'mailto:hi@italonery.com',
       icon: Mail,
     },
     {
