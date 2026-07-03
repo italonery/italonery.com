@@ -15,46 +15,18 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    id: 'webmonitor',
-    name: 'Web Monitor',
+    id: 'dynamic-ast',
+    name: 'Dynamic AST Rule Engine',
     description: {
-      en: 'Obervability engineering application for monitoring digital services (health chekcs for Web Apps, APIs, and Databases) built with .NET and React.',
-      pt: 'Aplicação de engenharia de observabilidade para monitoramento de serviços digitais (health checks de Aplicações Web, APIs, e Bancos de Dados) desenvolvido com .NET e React.'
+      en: 'A high-performance, dynamic rule engine for .NET. Parses text-based logic into an Abstract Syntax Tree (AST) and compiles it at runtime using System.Linq.Expressions for zero-reflection execution.',
+      pt: 'Motor de regras dinâmico e de alta performance para o ecosistema .NET. Converte lógicas textuais em uma Árvore de Sintaxe Abstrata (AST) e as compila em tempo de execução via System.Linq.Expressions, entregando uma execução nativa e livre de overhead de reflexão.'
     },
     language: 'C#',
-    github: 'https://github.com/italonery/web-monitor',
+    github: 'https://github.com/italonery/dynamic-ast-rule-engine',
     website: null,
     featured: true,
     isPrivate: false,
-    tags: ['.NET', 'ASP.NET Core', 'Web API', 'EF Core', 'React', 'TypeScript', 'MySQL']
-  },
-  {
-    id: 'tech-library',
-    name: 'Tech Library',
-    description: {
-      en: 'A backend API for a Tech Library management system, built with C# and .NET. Features JWT authentication, bcrypt password hashing, and SQLite database.',
-      pt: 'Uma API backend para sistema de gerenciamento de biblioteca técnica, construída com C# e .NET. Possui autenticação JWT, hash de senha com bcrypt e banco SQLite.'
-    },
-    language: 'C#',
-    github: 'https://github.com/italonery/tech-library',
-    website: null,
-    featured: false,
-    isPrivate: false,
-    tags: ['.NET', 'ASP.NET Core', 'Web API', 'EF Core', 'SQLite']
-  },
-  {
-    id: 'sales-web-mvc',
-    name: 'Sales Web',
-    description: {
-      en: 'A web sales system for managing sellers and departments. Built with ASP.NET Core and EF Core, following MVC architecture.',
-      pt: 'Sistema web de vendas para gerenciar vendedores e departamentos. Construído com ASP.NET Core e EF Core, seguindo arquitetura MVC.'
-    },
-    language: 'C#',
-    github: 'https://github.com/italonery/sales-web-mvc',
-    website: null,
-    featured: false,
-    isPrivate: false,
-    tags: ['.NET', 'ASP.NET Core', 'MVC', 'Razor', 'EF Core']
+    tags: ['.NET', 'Compiler', 'Metaprogramming', 'AST']
   },
 ];
 
